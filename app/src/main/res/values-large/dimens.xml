@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- main -->
+    <dimen name="toolbar_height">70dp</dimen>
+    <dimen name="toolbar_txt_tittle_size">20dp</dimen>
+    <dimen name="toolbar_txt_size">18dp</dimen>
+    <dimen name="toolbar_marginTop">7dp</dimen>
+    <dimen name="toolbar_marginLR">10dp</dimen>
+    <dimen name="split_height">70dp</dimen>
+    <dimen name="split_marginTop">7dp</dimen>
+    <dimen name="split_marginBottom_star">4dp</dimen>
+    <dimen name="split_marginLR">0dp</dimen>
+    <dimen name="magin_bottom_for_split">120dp</dimen>
+    <dimen name="toolbar_paddingTop_info">2dp</dimen>
+
+
+
+    <!-- main -->
+    <dimen name="main_marginLR">20dp</dimen>
+
+    <!-- login -->
+    <dimen name="login_txt_tittle">20dp</dimen>
+    <dimen name="login_txt_user_name">15dp</dimen>
+    <dimen name="login_txt">18dp</dimen>
+    <dimen name="login_MarginTop">30dp</dimen>
+    <dimen name="login_MarginTop_items">45dp</dimen>
+    <dimen name="login_padding">12dp</dimen>
+    <dimen name="login_btn_curve">7dp</dimen>
+
+
+    <!--  credit card charge -->
+    <dimen name="charge_MarginTop">55dp</dimen>
+    <dimen name="charge_MarginLR">30dp</dimen>
+    <dimen name="phon_number_size">18dp</dimen>
+    <dimen name="charge_txt_padding">15dp</dimen>
+    <dimen name="charge_txt_size">18dp</dimen>
+    <dimen name="charge_divider_height">9dp</dimen>
+
+    <dimen name="small_size">18dp</dimen>
+    <dimen name="marginTop_counter">30dp</dimen>
+    <dimen name="padding_btn">13dp</dimen>
+
+    <!-- contact list -->
+    <dimen name="contact_list_marginTop">25dp</dimen>
+
+
+    <!--  news -->
+    <dimen name="news_marginTop">25dp</dimen>
+
+    <!--  pay bills -->
+    <dimen name="pay_bills_curve">4dp</dimen>
+    <dimen name="pay_bills_padding">15dp</dimen>
+    <dimen name="pay_bills_marginTop">20dp</dimen>
+    <dimen name="pay_bills_marginTop_items">30dp</dimen>
+
+    <!--  sale sim card -->
+    <dimen name="sale_sim_card_marginTop">25dp</dimen>
+    <dimen name="sale_sim_card_marginTop_items">45dp</dimen>
+    <dimen name="test">30dp</dimen>
+
+    <!--  about us -->
+    <dimen name="about_us_marginTop">30dp</dimen>
+    <dimen name="about_us_txt_size">28dp</dimen>
+    <dimen name="about_us_marginTop_txt">60dp</dimen>
+    <dimen name="about_us_txt_legal">19dp</dimen>
+
+    <!-- more -->
+    <dimen name="more_marginTop_line">35dp</dimen>
+    <dimen name="more_marginTop">40dp</dimen>
+    <dimen name="more_txt_user_name">20dp</dimen>
+
+
+    <!-- main -->
+    <dimen name="main_news_margin_left">55dp</dimen>
+    <dimen name="main_charge_margin_left">50dp</dimen>
+    <dimen name="main_charge_margin_bottom">50dp</dimen>
+    <dimen name="main_payBill_margin_top">30dp</dimen>
+    <dimen name="main_net_pack_margin_bottom">20dp</dimen>
+    <dimen name="main_sale_sim_margin_right">50dp</dimen>
+    <dimen name="main_quick_access_margin_left">75dp</dimen>
+
+    <!-- pament_method-->
+    <dimen name="pament_method_padding">9dp</dimen>
+
+
+    <!-- marginTop divider white -->
+    <dimen name="marginTop_divide_white">35dp</dimen>
+
+
+    <!-- number picker txt size-->
+    <dimen name="number_picker_txt_size">18dp</dimen>
+
+    <!--  dialog sale sim -->
+    <dimen name="dialog_width">350dp</dimen>
+    <dimen name="dialog_height">340dp</dimen>
+    <dimen name="dialog_txt_size">18dp</dimen>
+
+    <dimen name="quick_access_btn_padding">12dp</dimen>
+    <dimen name="dialog_curve">13dp</dimen>
+
+    <!--  dialog guid -->
+    <dimen name="dialog_guid_parent_width">500dp</dimen>
+    <dimen name="dialog_guid_parent_height">650dp</dimen>
+    <dimen name="dialog_marginTop_close">15dp</dimen>
+    <dimen name="dialog_guid_marginTop">40dp</dimen>
+
+
+    <!--  dialog charge info -->
+    <dimen name="dialog_charge_info_width">320dp</dimen>
+    <dimen name="dialog_charge_info_height">410dp</dimen>
+    <dimen name="marginTop">10dp</dimen>
+    <dimen name="normal_size">20dp</dimen>
+    <dimen name="charge_sim_padding">10dp</dimen>
+    <dimen name="btn_curve">32dp</dimen>
+    <dimen name="charge_sim_padding_txt">13dp</dimen>
+    <dimen name="number_size">25dp</dimen>
+    <dimen name="smaller_size">16dp</dimen>
+    <dimen name="charge_sim_maginTop">30dp</dimen>
+
+</resources>

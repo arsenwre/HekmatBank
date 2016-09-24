@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="37dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+    <com.bank24.hi.hekmatbank.ui.rippleView.RippleView
+        android:id="@+id/card_manage_ripplView_adding_new_card"
+        rv_centered="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        ripple:rv_centered="true"
+        ripple:rv_color="@color/white"
+        ripple:rv_rippleDuration="20"
+        ripple:rv_type="rectangle"
+        ripple:rv_zoom="true">
+
+        <RelativeLayout
+            android:id="@+id/cardtocard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:background="#003366"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/cardtocard" />
+
+            <com.bank24.hi.hekmatbank.ui.DPTextView
+                android:id="@+id/check_supply_seporde"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView10"
+                android:layout_marginRight="30dp"
+                android:layout_toLeftOf="@+id/imageView10"
+                android:layout_toStartOf="@+id/imageView10"
+                android:gravity="center"
+                android:text="کارت به کارت "
+                android:textColor="@color/login_edit"
+                android:textSize="25dp" />
+
+        </RelativeLayout>
+    </com.bank24.hi.hekmatbank.ui.rippleView.RippleView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_manage"
+        android:layout_marginTop="1dp"
+        android:background="@color/contact_list" />
+
+    <RelativeLayout
+        android:id="@+id/cardtoseporde"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:background="#003366"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/sepordetocard" />
+
+        <com.bank24.hi.hekmatbank.ui.DPTextView
+            android:id="@+id/cardtoseporde_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/imageView11"
+            android:layout_toStartOf="@+id/imageView11"
+            android:gravity="center"
+            android:text="کارت به سپرده"
+            android:textColor="@color/login_edit"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_manage"
+        android:layout_marginTop="1dp"
+        android:background="@color/contact_list" />
+
+    <RelativeLayout
+        android:id="@+id/normaltransfer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:background="#003366"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/normaltransfer_txt"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/transfernormal" />
+
+        <com.bank24.hi.hekmatbank.ui.DPTextView
+            android:id="@+id/normaltransfer_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/imageView12"
+            android:layout_toStartOf="@+id/imageView12"
+            android:gravity="center"
+            android:text="انتقال عادی"
+            android:textColor="@color/login_edit"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_manage"
+        android:layout_marginTop="1dp"
+        android:background="@color/contact_list" />
+
+    <RelativeLayout
+        android:id="@+id/payatransfer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:background="#003366"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/check_supply_card"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/paya" />
+
+        <com.bank24.hi.hekmatbank.ui.DPTextView
+            android:id="@+id/check_supply_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/imageView13"
+            android:layout_toStartOf="@+id/imageView13"
+            android:gravity="center"
+            android:text=" انتقال پایا"
+            android:textColor="@color/login_edit"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_manage"
+        android:layout_marginTop="1dp"
+        android:background="@color/contact_list" />
+
+    <RelativeLayout
+        android:id="@+id/continoustransfer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:background="#003366"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/continoustransfer_txt"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/transfercontinous" />
+
+        <com.bank24.hi.hekmatbank.ui.DPTextView
+            android:id="@+id/continoustransfer_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/imageView14"
+            android:layout_toStartOf="@+id/imageView14"
+            android:gravity="center"
+            android:text=" انتقال مستمر"
+            android:textColor="@color/login_edit"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+</LinearLayout>

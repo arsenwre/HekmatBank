@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="37dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <RelativeLayout
+        android:id="@+id/mojodi_card"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1"
+        android:background="#003366"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.bank24.hi.hekmatbank.ui.DPTextView
+                android:id="@+id/check_supply_seporde"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="70dp"
+                android:gravity="center"
+                android:text="موجودی کارت"
+                android:textColor="@color/login_edit"
+                android:textSize="23dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginStart="66dp"
+                android:src="@drawable/creditcard" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_manage"
+        android:layout_marginTop="1dp"
+        android:background="@color/contact_list" />
+
+
+    <RelativeLayout
+        android:id="@+id/hesab_card"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:background="#003366"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.bank24.hi.hekmatbank.ui.DPTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="70dp"
+                android:gravity="center"
+                android:text="حساب کارت"
+                android:textColor="@color/login_edit"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginStart="66dp"
+                android:src="@drawable/creditcard" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

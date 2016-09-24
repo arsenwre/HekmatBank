@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/main_marginLR"
+    android:paddingBottom="@dimen/main_marginLR"
+    android:paddingRight="@dimen/main_marginLR"
+    android:paddingLeft="@dimen/main_marginLR"
+    android:background="@drawable/back_dialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/main_marginLR"
+        android:background="@drawable/back_enable">
+
+        <com.bank24.hi.hekmatbank.ui.DPTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/txt_dark_gray"
+            android:layout_marginRight="3dp"
+            android:text="بارکد"
+            android:textSize="@dimen/normal_size"
+            android:id="@+id/pay_bill_txt_mid_term" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/charge_sim_padding_txt"
+            android:paddingBottom="@dimen/charge_sim_padding_txt"
+            android:src="@drawable/barcode_redear"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_enable"
+        android:orientation="vertical"
+        android:id="@+id/dialog_ly_enter_id">
+        <com.bank24.hi.hekmatbank.ui.DPTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingTop="@dimen/charge_sim_padding"
+            android:paddingBottom="@dimen/charge_sim_padding"
+            android:textColor="@color/txt_dark_gray"
+            android:text="ممومت"
+            android:textSize="@dimen/normal_size"
+            />
+    </LinearLayout>
+
+</LinearLayout>

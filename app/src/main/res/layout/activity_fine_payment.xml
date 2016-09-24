@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/main_marginLR"
+    android:layout_marginRight="@dimen/main_marginLR"
+    android:layout_marginTop="@dimen/main_marginLR"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/card_managment_ly_adding_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/back_enable"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.bank24.hi.hekmatbank.ui.DPTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="3dp"
+            android:gravity="center"
+            android:text="بارکد خوان"
+            android:textColor="@color/txt_dark_gray"
+            android:textSize="@dimen/small_size" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_btn"
+            android:paddingTop="@dimen/padding_btn"
+            android:src="@drawable/barcode_reader" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_marginLR"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.3"
+            android:background="@drawable/back_buttons_light_gray">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/fine_bill_favorite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/charge_sim_padding"
+                    android:src="@drawable/favorite" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal">
+
+                    <com.bank24.hi.hekmatbank.ui.DPEditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="4242452522525"
+                        android:textColor="@color/txt_light_gray"
+                        android:textColorHint="@color/txt_dark_gray"
+                        android:textSize="@dimen/normal_size" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/charge_sim_img_minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/charge_sim_padding"
+                    android:src="@drawable/close" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <com.bank24.hi.hekmatbank.ui.DPTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_marginBottom="@dimen/charge_sim_padding_txt"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1.7"
+            android:gravity="right|center"
+            android:text="مشخصات"
+            android:textColor="@color/txt_light_gray"
+            android:textSize="@dimen/normal_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_marginLR"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.3"
+            android:background="@drawable/back_buttons_light_gray">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:visibility="invisible"
+                    android:padding="@dimen/charge_sim_padding"
+                    android:src="@drawable/favorite" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal">
+
+                    <com.bank24.hi.hekmatbank.ui.DPEditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="4242452522525"
+                        android:textColor="@color/txt_light_gray"
+                        android:textColorHint="@color/txt_dark_gray"
+                        android:textSize="@dimen/normal_size" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/charge_sim_img_minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/charge_sim_padding"
+                    android:src="@drawable/close" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <com.bank24.hi.hekmatbank.ui.DPTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_marginBottom="@dimen/charge_sim_padding_txt"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1.7"
+            android:gravity="right|center"
+            android:text="مشخصات"
+            android:textColor="@color/txt_light_gray"
+            android:textSize="@dimen/normal_size" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_marginLR"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.3"
+            android:background="@drawable/back_buttons_light_gray">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:visibility="invisible"
+                    android:padding="@dimen/charge_sim_padding"
+                    android:src="@drawable/favorite" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal">
+
+                    <com.bank24.hi.hekmatbank.ui.DPEditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="4242452522525"
+                        android:textColor="@color/txt_light_gray"
+                        android:textColorHint="@color/txt_dark_gray"
+                        android:textSize="@dimen/normal_size" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/charge_sim_padding"
+                    android:visibility="invisible"
+                    android:src="@drawable/close" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <com.bank24.hi.hekmatbank.ui.DPTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_marginBottom="@dimen/charge_sim_padding_txt"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1.7"
+            android:gravity="right|center"
+            android:text="قیمت"
+            android:textColor="@color/txt_light_gray"
+            android:textSize="@dimen/normal_size" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,196 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_back"
+        android:orientation="vertical">
+
+        <com.bank24.hi.hekmatbank.ui.DpButton
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/mojodihesab4" />
+
+        <com.bank24.hi.hekmatbank.ui.DpButton
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/modiriyatcart" />
+
+        <com.bank24.hi.hekmatbank.ui.DpButton
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/tanzimat" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/icon4" />
+
+        <com.bank24.hi.hekmatbank.ui.DpButton
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="69dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ghobooz" />
+
+        <com.bank24.hi.hekmatbank.ui.DpButton
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/imageView4"
+            android:layout_below="@+id/imageView"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/enteghalvajh" />
+
+        <com.bank24.hi.hekmatbank.ui.DpButton
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imageView5"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/tashilat" />
+
+        <com.bank24.hi.hekmatbank.ui.DpButton
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView5"
+            android:layout_alignStart="@+id/imageView5"
+            android:layout_alignTop="@+id/imageView6"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/chek" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imageView6"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/icon4" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView5"
+            android:layout_alignStart="@+id/imageView5"
+            android:layout_alignTop="@+id/imageView8"
+            android:layout_marginLeft="65dp"
+            android:background="@drawable/icon4" />
+        <!-- Duration controls -->
+
+        <TextView
+            android:id="@+id/text_view_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+
+        <SeekBar
+            android:id="@+id/seek_bar_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_duration"
+            android:max="49"
+            android:visibility="gone" />
+
+
+        <!-- Amplitude controls -->
+
+        <TextView
+            android:id="@+id/text_view_amplitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seek_bar_duration"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:visibility="gone" />
+
+        <SeekBar
+            android:id="@+id/seek_bar_amplitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_amplitude"
+            android:max="199"
+            android:visibility="gone" />
+
+
+        <!-- Frequency controls -->
+
+        <TextView
+            android:id="@+id/text_view_frequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seek_bar_amplitude"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:visibility="gone" />
+
+        <SeekBar
+            android:id="@+id/seek_bar_frequency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_frequency"
+            android:max="199"
+            android:visibility="gone" />
+
+
+        <!-- The button  -->
+
+        <Button
+            android:id="@+id/play_button"
+            android:layout_width="3dp"
+            android:layout_height="4dp"
+            android:layout_below="@id/text_view_frequency"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/mojodihesab4"
+            android:onClick="didTapPlayButton"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <fragment
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_navigation_drawer"
+        android:layout_gravity="end"
+        android:layout_marginBottom="50dp"
+        android:layout="@layout/fragment_navigation_drawer"
+        tools:layout="@layout/fragment_navigation_drawer"
+        android:name="com.bank24.hi.hekmatbank.Utility.navigation_drawer" >
+
+    </fragment>
+</android.support.v4.widget.DrawerLayout>

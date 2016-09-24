@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="main_color">#003366</color>
+    <color name="dark_color">#003389</color>
+    <color name="toolbar_txt_color">#f8f8f8</color>
+    <color name="orange">#f99d1c</color>
+    <color name="split">#d4d4d4</color>
+
+    <!-- login -->
+    <color name="login_tittle">#ababab</color>
+    <color name="login_edit">#ffffff</color>
+    <color name="login_txt_register">#777777</color>
+    <color name="login_divider">#a7a9ac</color>
+    <!-- pay -->
+    <color name="background">#f1f1f1</color>
+    <color name="blue">#007aff</color>
+
+    <!--  contact list -->
+    <color name="contact_list">#c9c9cc</color>
+
+
+    <color name="exit">#f9f9f9</color>
+    <color name="rippelColor">#FFFFFF</color>
+    <color name="colorAccent">#faff27</color>
+    <color name="dialog_txt_color">#f58220</color>
+
+    <color name="txt_btn_back">#f1f1f1</color>
+    <color name="txt_dark_gray">#777777</color>
+    <color name="txt_light_gray">#ababab</color>
+    <color name="strok_gray">#c5c6ca</color>
+    <color name="bottom_color">#a8a9ad</color>
+    <color name="btn_pay">#e2e2e2</color>
+</resources>

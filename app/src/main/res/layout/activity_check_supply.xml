@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:weightSum="2"
+    android:layout_marginBottom="37dp"
+    android:orientation="vertical">
+    <com.bank24.hi.hekmatbank.ui.rippleView.RippleView
+        android:id="@+id/card_manage_ripplView_adding_new_card"
+        rv_centered="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        ripple:rv_centered="true"
+        ripple:rv_color="@color/white"
+        ripple:rv_rippleDuration="20"
+        ripple:rv_type="rectangle"
+        ripple:rv_zoom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#003366"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/check_supply_seporde"
+                android:layout_centerInParent="true"
+                android:src="@drawable/coinmoney" />
+
+            <com.bank24.hi.hekmatbank.ui.DPTextView
+                android:id="@+id/check_supply_seporde"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="@dimen/charge_MarginLR"
+                android:text="سپرده "
+                android:textColor="@color/login_edit"
+                android:textSize="35dp" />
+
+        </RelativeLayout>
+
+        </com.bank24.hi.hekmatbank.ui.rippleView.RippleView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_manage"
+        android:layout_marginTop="1dp"
+        android:background="@color/contact_list" />
+
+
+    <com.bank24.hi.hekmatbank.ui.rippleView.RippleView
+        android:id="@+id/card_manage_ripplView_adding_new"
+        rv_centered="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        ripple:rv_centered="true"
+        ripple:rv_color="@color/white"
+        ripple:rv_rippleDuration="20"
+        ripple:rv_type="rectangle"
+        ripple:rv_zoom="true">
+        <RelativeLayout
+            android:id="@+id/check_supply_card_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#003366"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/check_supply_card"
+                android:layout_centerInParent="true"
+                android:src="@drawable/creditcard" />
+
+            <com.bank24.hi.hekmatbank.ui.DPTextView
+                android:id="@+id/check_supply_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="@dimen/charge_MarginLR"
+                android:text=" کارت"
+                android:textColor="@color/login_edit"
+                android:textSize="35dp" />
+        </RelativeLayout>
+
+        </com.bank24.hi.hekmatbank.ui.rippleView.RippleView>
+
+
+
+
+</LinearLayout>
