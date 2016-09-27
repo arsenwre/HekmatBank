@@ -55,7 +55,6 @@ public class CheckSupplyActivity extends MainMenuActivity {
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 }
